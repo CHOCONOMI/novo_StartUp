@@ -1,0 +1,215 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.barra_inicio {
+    width: 100%;
+    height: 8em;
+    padding: 1em;
+    padding-right: 30em;
+    background-color: floralwhite;
+    display: flex;
+    flex-direction: row;
+}
+
+.barra {
+    width: 100%;
+    height: 7em;
+    padding-right: 30em;
+    background-color: floralwhite;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 8em;
+    height: 7em;
+    margin-left: 10em;
+    padding: 1em;
+}
+
+.logo img {
+    width: 7em;
+    align-content: center;
+}
+
+.inicio {
+    width: 80em;
+    height: 4em;
+    margin-top: 1em;
+    margin-right: 6em;
+    padding: 1em;
+}
+
+.desplegable {
+    width: 15em;
+    height: 2em;
+    margin: auto;
+    margin-left: 30em;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.letrasi {
+    width: 15em;
+    height: 2em;
+    margin: auto;
+    margin-left: 1em;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    list-style: none;
+}
+
+.c {
+    width: 15em;
+    height: 2em;
+    margin: auto;
+    margin-left: 1em;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    list-style: none;
+}
+
+.carreras {
+    background-color: floralwhite;
+    font-size: 1em;
+    margin: auto;
+    width: 15em;
+    height: 4em;
+    display: none;
+    text-align: center;
+}
+
+.carreras li{
+    background-color: floralwhite;
+    font-size: 1em;
+    margin: auto;
+    width: 15em;
+    height: 5em;
+    padding: 2em;
+    text-align: center;
+}
+
+.carreras li:hover {
+    background-color: gainsboro;
+}
+
+.c:hover .carreras {
+    display: block;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: floralwhite;
+}
+
+.caratula {
+    width: 130em;
+    height: 65em;
+    background-image: url(../img/domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+    background-size: cover;
+    margin: auto;
+    padding: 5em;
+    
+}
+
+.banner {
+    font-size: 4em;
+    color: black;
+    margin-top: 4em;
+    margin-left: 1em;
+}
+
+.big {
+    font-size: 1.5em;
+}
+
+.seccion1 {
+    margin: auto;
+    width: 130em;
+    height: 100em;
+    background-color: white;
+    padding: 2.5em;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.bmessage {
+    width: 60em;
+    height: 15em;
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 1.2em;
+    text-align: center;
+}
+
+.bmessage p {
+    font-size: 2em;
+}
+
+.bmessage span{
+    font-size: 1.5em;
+}
+
+.secciones {
+    width: 100em;
+    height: 75em;
+    margin: auto;
+    margin-top: 2em;
+    padding: 2em;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+.temas {
+    width: 30em;
+    height: 4.5em;
+    background-color: white;
+    border-bottom: 0.5em solid black;
+    padding: 1em;
+}
+
+.temas p{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.bbox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+    margin: auto;
+}
+
+.lbox {
+    width: 20em;
+    height: 20em;
+    margin: 2em;
+    background-color: white;
+}
+.image {
+    width:20em;
+}
+
+.texto{
+    
+}
+
+.lbox :hover{
+    opacity: 80%;
+}
