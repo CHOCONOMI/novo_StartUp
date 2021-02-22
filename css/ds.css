@@ -102,11 +102,13 @@
 
 .carreras li:hover {
     background-color: gainsboro;
+    transition: 1s;
 }
 
 .c:hover .carreras {
     display: block;
     list-style: none;
+    transition: 2s;
 }
 
 a {
@@ -141,7 +143,7 @@ body {
 .seccion1 {
     margin: auto;
     width: 130em;
-    height: 100em;
+    height: 220em;
     background-color: white;
     padding: 2.5em;
     flex-direction: column;
@@ -167,11 +169,10 @@ body {
 
 .secciones {
     width: 100em;
-    height: 75em;
+    height: 80em;
     margin: auto;
     margin-top: 2em;
     padding: 2em;
-    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
 }
@@ -179,7 +180,6 @@ body {
 .temas {
     width: 30em;
     height: 4.5em;
-    background-color: white;
     border-bottom: 0.5em solid black;
     padding: 1em;
 }
@@ -199,17 +199,33 @@ body {
 .lbox {
     width: 20em;
     height: 20em;
-    margin: 2em;
+    margin: 4em;
+    margin-bottom: 10em;
     background-color: white;
 }
 .image {
     width:20em;
 }
 
+.image img {
+    width:20em;
+}
+
 .texto{
-    
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 20em;
+    height:10em;
+}
+
+.texto p {
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
 }
 
 .lbox :hover{
     opacity: 80%;
+    transition: 1s;
 }
